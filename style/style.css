@@ -111,16 +111,17 @@
 }
 /* call now */
 .call-now{
-    justify-content: center;
-    text-align: center;
-}
-.call-box{
-    background-image: url(/images/watch.png);
+    background-image: url(/images/watch.png),url(/images/gradient2.png);
     background-position: center;
     background-size: cover;
-    height: 50vh;
-    width: 100%;
-    margin: 200px;
+    width: 80%;
+    margin: 100px auto;
+    padding: 100px 0;
+    border-radius: 10px;
+    background-blend-mode: multiply;
+}
+.call-now h2{
+    
 }
 .section-btn{
     background:#FFFFFF;
