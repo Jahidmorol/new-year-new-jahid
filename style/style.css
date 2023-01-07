@@ -80,51 +80,66 @@
     margin-bottom: 15px;
     line-height: 23px;
 }
-.list-box{
+
+.list-box {
     list-style: none;
 }
-.list-item{
 
-}
-.fa-solid{
+.list-item {}
+
+.fa-solid {
     padding-right: 10px;
     color: #16D887;
 }
-.plan{
+
+.plan {
     text-align: center;
     margin-top: 130px;
 }
-.plan-box{
+
+.plan-box {
     display: flex;
     gap: 90px;
     justify-content: center;
     margin-top: 55px;
 }
-.item-title{
+
+.item-title {
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.item-description{
+
+.item-description {
     font-size: 20px;
     color: #737272;
 }
+
 /* call now */
-.call-now{
-    background-image: url(../images/watch.png),url(../images/gradient2.png);
+.call-now {
+    background-image: url(../images/watch.png), url(../images/gradient2.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 80%;
     margin: 100px auto;
     padding: 100px 0;
     border-radius: 10px;
     background-blend-mode: multiply;
+    padding-left: 60px;
 }
-.call-now h2{
-    
+
+.call-now h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-top: ;
+    padding-bottom: 24px;
 }
-.section-btn{
-    background:#FFFFFF;
+
+.section-btn {
+    background: #FFFFFF;
     border-radius: 5px;
     width: 150px;
     height: 55px;
@@ -132,4 +147,75 @@
     text-align: center;
     font-size: 22px;
     color: #F15B22;
+}
+
+/* future */
+.future {
+    background: #151414;
+    height: 577px;
+}
+
+.future-item {
+    display: flex;
+    gap: 330px;
+    justify-content: center;
+    padding: 130px;
+}
+
+.future-box {
+    width: 40%;
+}
+
+.future-box h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.future-box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.icon-box img {
+    padding-right: 10px;
+}
+
+.subcribe-item {
+    display: inline-block;
+}
+
+.subscribe-box h3 {
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.subscribe-box input {
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.email-btn {
+    background-color: #151414;
+    color: #FFFFFF;
+    width: 260px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.subscribe-btn{
+    background: #F15B22;
+    border-radius: 5px;
+    width: 150px;
+    height: 55px;
+    border: none;
+    text-align: center;
+    font-size: 22px;
+    color: #FFFFFF;
 }
